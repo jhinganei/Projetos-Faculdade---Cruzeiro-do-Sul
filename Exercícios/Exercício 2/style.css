@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+}
+
+main{
+    overflow: auto;
+}
+
+main .imagens{
+    float: left;
+    width: 20%;
+    height: 425px;
+    background-color: #cdcdcd;
+}
+
+.cor1{
+    color: red;
+    font-weight: bold;
+    background-color: #cdcdcd
+}
+
+tfoot td{
+    padding: 25px;
+}
