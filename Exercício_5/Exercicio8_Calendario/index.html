@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exemplos</title>
+
+    <style>
+        body {
+            font-family: verdana; 
+            font-size: 10pt;
+            background-color: #F9EAC3;
+        }
+        
+        table.cal {
+            color: #06425C;
+            border-spacing: 0;
+            border: 3px solid black;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .img {
+            width: 50px;
+        }
+
+        .img2 {
+            width: 21%;
+        }
+        
+        /*inserir pseudo-classes aqui*/        
+        
+        
+        .cal caption {
+            text-transform: uppercase;
+            background-color: #2a2a6f;
+            color: #ffffff;            
+            border-radius: 25px 25px 0 0;
+        }
+        
+        .cal th,
+        .cal td {
+            margin: 2px;
+            padding-bottom: 2px;            
+        }  
+        
+        th {
+            text-align: center;
+            background: #FFFFFF;
+        }
+        
+        .cal td {
+            width: 55px;
+            height: 55px;
+            vertical-align: center;
+            text-align: center;
+        }
+        
+        .feriado {           
+            background-color: #4d96d3;
+        }
+
+        .cor{
+            background-color: #FF8000;
+        }
+
+        .cor2{
+            background-color: #FFFF66;
+        }
+
+        .cor3{
+            background-color: #66FF66;
+        }
+        .cor4{
+            background-color: #99FF99;
+        }
+        
+        .old {            
+            background-color: black;
+            color: red;            
+        }
+        
+        span {
+            display: none;
+            text-align: center;
+            color: #0e15c1;
+            font-size: 7pt;
+        }
+        
+        td:hover>span {
+            display: block;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <center>
+        <img src="happy.png" class="img2" alt="Feliz Aniversário">
+        </center>
+    </div>
+    <center>
+    <table class="cal">
+        <caption>Abril 2022</caption>
+        <thead>
+            <tr>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sab</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="old">27</td>
+                <td class="old">28</td>
+                <td class="old">29</td>
+                <td class="old">30</td>
+                <td class="old">31</td>
+                <td class="cor">1<span><b>Dia da mentira</b></span></td>
+                <td class="cor">2</td>
+            </tr>
+            <tr>
+                <td class="cor">3</td>
+                <td class="cor">4</td>
+                <td class="cor">5</td>
+                <td class="cor4">6<span><img src="bolo15.gif" class="img" alt="Meu aniversário"></span></td>
+                <td class="cor">7</td>
+                <td class="cor">8</td>
+                <td class="cor">9</td>
+            </tr>
+            <tr>
+                <td class="cor">10</td>
+                <td class="cor2">11</td>
+                <td class="cor2">12</td>
+                <td class="cor2">13</td>
+                <td class="cor2">14</td>
+                <td class="feriado">15<span><img src="feriado.jpg" class="img" alt="Feriado dia 15/04">Sexta-Feira Santa</span></td>
+                <td class="cor2">16</td>
+            </tr>
+            <tr>
+                <td class="cor2">17</td>
+                <td class="cor2">18</td>
+                <td class="cor2">19</td>
+                <td class="cor2">20</td>
+                <td class="feriado">21<span><img src="feriado.jpg" class="img" alt="Feriado dia 21/04">Dia de Tiradentes</span></td>
+                <td class="cor3">22</td>
+                <td class="cor3">23</td>
+            </tr>
+            <tr>
+                <td class="cor3">24</td>
+                <td class="cor3">25</td>
+                <td class="cor3">26</td>
+                <td class="cor3">27</td>
+                <td class="cor3">28</td>
+                <td class="cor3">29</td>
+                <td class="cor3">30</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+
+</body>
+
+</html>
